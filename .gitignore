@@ -1,0 +1,10 @@
+# Python이 자동 생성하는 파일
+__pycache__/
+*.pyc
+
+# VSCode 개인 설정
+.vscode/
+
+# OS가 만드는 파일
+Thumbs.db
+.DS_Store
