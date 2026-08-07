@@ -2,7 +2,7 @@ name=input("이름이 뭐예요?")
 print(f"{name}님,환영합니다!")
 print("퀴즈 게임을 시작합니다!")
 score=0
-newquiz="등록된 퀴즈 없습니다."
+quizzes=[]
 while True:
     print("""
 ========================================
@@ -38,9 +38,11 @@ while True:
         
     elif menu =="2":
         newquiz=input("퀴즈 추가해:")
+        quizzes.append(newquiz)
+        print("퀴즈 추가됐음 추카")
         
     elif menu=="3":
-        print(newquiz)
+        print(quizzes)
     elif menu=="4":
         print(score)
     else:
